@@ -1,0 +1,42 @@
+body {
+	margin-top: 10px;
+	background-color: #83CBD1;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+select {
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row {
+	height: 50px;
+	margin-top: 25px;
+}
+
+.skinButton {
+	border: none;
+	border-radius: 50px;
+	background-color: white;
+	transition: transform .2s;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.skinButton:hover {
+	transform: scale(1.2);
+	outline: none;
+}
+
+.citation {
+	margin-top: 100px;
+	font-family: 'Marck Script', cursive;
+	font-size: 3em;
+}

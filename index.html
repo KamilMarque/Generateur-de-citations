@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Générateur de citations</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+	<h1 class="text-center">Générateur de citation</h1>
+	<div class="container text-center">
+		<p>Cliquez sur le bouton generer pour generer une citation.<br>Vous pouvez generer jusqu'a 5 citations à la fois.</p>
+		
+		<div class="row">
+			<select id="val" size="1" class="offset-3 col-2">
+			  <option value="1">1 Citation</option>
+			  <option value="2">2 Citations</option>
+			  <option value="3">3 Citations</option>
+			  <option value="4">4 Citations</option>
+			  <option value="5">5 Citations</option>
+			</select>
+			<button id="generer" class="offset-2 col-2 skinButton">Générer</button>
+			<button onclick="self.close()" class="offset-5 col-2 skinButton">Quitter</button>
+		</div>
+		<p class="citation col-12"></p>
+	</div>
+
+</body>
+</html>
