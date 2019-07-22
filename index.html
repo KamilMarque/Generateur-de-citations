@@ -15,7 +15,7 @@
 <body>
 	<h1 class="text-center">Générateur de citation</h1>
 	<div class="container text-center">
-		<p>Cliquez sur le bouton generer pour generer une citation.<br>Vous pouvez generer jusqu'a 5 citations à la fois.</p>
+		<p>Cliquez sur le bouton générer pour générer une citation.<br>Vous pouvez générer jusqu'à 5 citations à la fois, avec deux thèmes différents.</p>
 		
 		<div class="row">
 			<select id="val" size="1" class="offset-3 col-2">
@@ -26,7 +26,11 @@
 			  <option value="5">5 Citations</option>
 			</select>
 			<button id="generer" class="offset-2 col-2 skinButton">Générer</button>
-			<button onclick="self.close()" class="offset-5 col-2 skinButton">Quitter</button>
+			<select id="theme" class="offset-3 col-2">
+				<option value="1">Pas de théme</option>
+				<option value="2">Théme Avengers</option>
+			</select>
+			<button onclick="self.close()" class="offset-2 col-2 skinButton">Quitter</button>
 		</div>
 		<p class="citation col-12"></p>
 	</div>
