@@ -14,6 +14,7 @@ select {
 	outline: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align-last:center; 
 }
 
 .row {
@@ -39,4 +40,20 @@ select {
 	margin-top: 100px;
 	font-family: 'Marck Script', cursive;
 	font-size: 3em;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px){
+	body {
+		font-size: 1.5em;
+	}
+	.container {
+		max-width: 98%;
+	}
+
+	.citation {
+		margin-top: 150px;
+	}
+	.skinButton:hover {
+	transform: none;
+	}
 }
